@@ -1,0 +1,32 @@
+.top-bar{
+    background: rgb(60,60,60);
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.circles-container{
+    /* background: pink; */
+    top: 0.2;
+    left: 0;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 3.5rem;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-bar-circle{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+
+.top-bar-title{
+    color: rgb(204,204,204);
+    align-self: center;
+}
