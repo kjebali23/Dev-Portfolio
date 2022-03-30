@@ -1,14 +1,19 @@
 import React from 'react'
-import LeftBar from './LeftBar'
 import TopBar from './TopBar'
 import './Main.css'
 import WorkspaceContainer from './WorkspaceContainer'
+import AppTopBar from '../components/AppTopBar'
 
 const Main = () => {
   return (
     <div>
-        <TopBar/>
-    <WorkspaceContainer />
+      <AppTopBar/>
+    <div className='main'>
+        {/* <TopBar/>
+    <WorkspaceContainer /> */}
+    </div>
+    <div className='doc'>
+      </div>
     </div>
   )
 }
