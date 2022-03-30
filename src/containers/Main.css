@@ -5,7 +5,7 @@ body{
 .workspace-container{
     display: flex;
     flex-direction: row;
-    background: chartreuse;
+    background: rgb(30,30,30);
     height: 96.5vh;
 }
 
@@ -48,18 +48,110 @@ body{
 .explorer-title{
     width: 100%;
     height: 2.5rem;
-    background: pink;
     display: flex;
     justify-content: flex-start;
     align-items: center ;
 }
 
 .explorer-title p{
-    color: rgb(182,182,182);
+    color: white;
     margin-left: 1.5rem;
-
+    cursor: default;
 }
 
 .resume{
     background: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-title{
+    background: rgb(38,37,38);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.2rem;
+    height: 2rem;
+}
+
+.resume-title p{
+    margin-left: 0.2rem;
+    color: white;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+.resume-title img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.info-section{
+    background: rgb(38,37,38);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center ;
+    margin-left: 1rem;
+}
+
+.section p{
+    color: white;
+    margin-top: 0.8rem;
+    margin-left: 0.2rem;
+    cursor: default;
+}
+
+.section img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.subsection {
+    /* background: pink; */
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.subsection-title{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.subsection p{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    cursor: default;
+}
+
+.subsection img{
+    height: 0.9rem;
+    width: 0.9rem;
 }

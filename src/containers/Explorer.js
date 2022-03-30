@@ -1,5 +1,7 @@
 import React from 'react'
-import Resume from './Resume'
+import down from '../assets/down.png'
+import Section from './Section'
+import Subsection from './Subsection'
 
 const Explorer = () => {
   return (
@@ -7,7 +9,23 @@ const Explorer = () => {
         <div className='explorer-title'>
             <p>Explorer</p>
             </div>
-        <Resume />
+        <div className='resume'>
+          <div className='resume-title' > 
+            <img src={down} /> <p>Khalil-Jebali</p>
+          </div>
+          <div className='info-section' >
+            <Section title={'Resume'} />
+              <Subsection title={'Resume.js'}/>
+            <Section title={'Education'} />
+              <Subsection title={'Education.js'}/>
+            <Section title={'Experience'} />
+              <Subsection title={'Experience.js'}/>
+            <Section title={'Projects'} />
+              <Subsection title={'Gapplebees.js'}/>
+              <Subsection title={'Node-crud.js'}/>
+          </div>
+        </div>
+        
     </div>
   )
 }
