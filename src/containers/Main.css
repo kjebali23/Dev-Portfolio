@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .workspace-container{
     display: flex;
     flex-direction: row;
@@ -9,18 +13,53 @@
     width: 5%;
     background: rgb(51,51,51);
     display: flex;
-
+    border-bottom-left-radius: 0.5rem;
 }
 
 .links-container{
-    background: pink;
     height: 40%;
     width: 100%;
     top: 0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-img{
+.links-container img{
     width: 3rem;
     height: 3rem;
+    border-radius: 10%;
+}
+
+.links-container img:hover{
+    border: 1px solid white;
+}
+
+.explorer{
+    background-color: rgb(38,37,38);
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.explorer-title{
+    width: 100%;
+    height: 2.5rem;
+    background: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+.explorer-title p{
+    color: rgb(182,182,182);
+    margin-left: 1.5rem;
+
+}
+
+.resume{
+    background: red;
 }
