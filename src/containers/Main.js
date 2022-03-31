@@ -14,8 +14,8 @@ const Main = () => {
     <div>
       <AppTopBar/>
     <div className='main'>
-        {/* <TopBar/>
-    <WorkspaceContainer /> */}
+        <TopBar/>
+    <WorkspaceContainer />
     </div>
     <div className='doc'>
       <button className='doc-btn'><img className='doc-img' src={finder} /></button>

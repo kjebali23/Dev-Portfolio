@@ -14,8 +14,6 @@ const Explorer = () => {
             <img src={down} /> <p>Khalil-Jebali</p>
           </div>
           <div className='info-section' >
-            <Section title={'Resume'} />
-              <Subsection title={'Resume.js'}/>
             <Section title={'Education'} />
               <Subsection title={'Education.js'}/>
             <Section title={'Experience'} />
@@ -23,6 +21,8 @@ const Explorer = () => {
             <Section title={'Projects'} />
               <Subsection title={'Gapplebees.js'}/>
               <Subsection title={'Node-crud.js'}/>
+            <Section title={'Resume'} />
+              <Subsection title={'Resume.js'}/>
           </div>
         </div>
         

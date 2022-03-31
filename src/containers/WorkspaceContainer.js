@@ -1,5 +1,7 @@
 import React from 'react'
+import ResumeSection from '../components/ResumeSection'
 import Explorer from './Explorer'
+import InfoSection from './InfoSection'
 import LeftBar from './LeftBar'
 
 const WorkspaceContainer = () => {
@@ -7,6 +9,7 @@ const WorkspaceContainer = () => {
       <div className='workspace-container'>
     <LeftBar/>
     <Explorer/>
+    <InfoSection/>
     </div>
   )
 }
