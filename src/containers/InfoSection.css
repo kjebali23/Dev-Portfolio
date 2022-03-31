@@ -78,6 +78,58 @@
 
 .education-section{
     background: chocolate;
-    /* align-self: flex-start; */
     margin: auto;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 2rem;
+    background-color: rgb(51,51,51);
+    padding-left: 1rem;
+}
+
+.education-section h3{
+    margin: auto;
+}
+
+
+.experience-section{
+    overflow: scroll;
+}
+
+.experience{
+    background: chocolate;
+    margin: auto;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 2rem;
+    background-color: rgb(51,51,51);
+    padding-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.experience h4{
+    margin: auto;
+    margin-top: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: flex-start; */
+}
+
+.bullet-points {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    height: 60%;
+    margin-bottom: 1.5rem;
 }
