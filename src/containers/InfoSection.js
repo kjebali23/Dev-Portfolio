@@ -14,8 +14,8 @@ const InfoSection = () => {
         {/* <InfoSectionTopBar/> */}
         {/* <GeneralInfo/> */}
         {/* <Education/> */}
-        {/* <Experience/> */}
-        <Projects/>
+        <Experience/>
+        {/* <Projects/> */}
         {/* <ResumeSection/> */}
 
         
