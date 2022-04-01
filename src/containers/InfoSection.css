@@ -133,3 +133,57 @@
     height: 60%;
     margin-bottom: 1.5rem;
 }
+
+.projects-section{
+    overflow: scroll;
+}
+
+.project{
+    background: chocolate;
+    margin: auto;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    border-radius: 2rem;
+    background-color: rgb(51,51,51);
+    padding-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.project-show{
+    background: rgb(30,30,30);
+    width: 5rem;
+    height: 5rem;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+}
+
+
+.project-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-links img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.project-links button{
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

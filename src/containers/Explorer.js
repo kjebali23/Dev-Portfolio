@@ -19,8 +19,7 @@ const Explorer = () => {
             <Section title={'Experience'} />
               <Subsection title={'Experience.js'}/>
             <Section title={'Projects'} />
-              <Subsection title={'Gapplebees.js'}/>
-              <Subsection title={'Node-crud.js'}/>
+              <Subsection title={'Projects.js'}/>
             <Section title={'Resume'} />
               <Subsection title={'Resume.js'}/>
           </div>
