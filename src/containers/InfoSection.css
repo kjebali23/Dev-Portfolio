@@ -158,6 +158,13 @@
     margin-bottom: 2rem;
 }
 
+.project-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .project-show{
     background: rgb(30,30,30);
     width: 5rem;
@@ -168,6 +175,23 @@
     align-items: center;
     border-radius: 1rem;
 
+}
+
+.tech-used{
+    /* background: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tech-used p{
+    margin-left: 0.5rem;
+}
+
+
+
+.project-description{
+    /* background: chartreuse; */
+    height: 30%;
 }
 
 
