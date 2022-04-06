@@ -11,7 +11,7 @@ import { useSelector } from 'react-redux'
 const InfoSection = () => {
 
   const page = useSelector((state)=> state.pages.value )
-  console.log(page)
+  // console.log(page)
 
   return (
     <div className='data-section'>
