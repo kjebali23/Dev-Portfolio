@@ -11,7 +11,6 @@ import launchpad from '../assets/launchpad.png'
 
 const Main = () => {
   const [desktop , setDesktop] = useState(0);
-  console.log(desktop)
   const showDesktop = ()=>{
     setDesktop(0);
   }

@@ -8,6 +8,9 @@ export const pageSlice = createSlice({
     name : 'pages',
     initialState,
     reducers:{
+        general: (state)=>{
+            state.value = 0
+        },
         education: (state)=>{
             state.value = 1
         } ,
@@ -24,6 +27,6 @@ export const pageSlice = createSlice({
     }
 })
 
-export const{education , experience , projects , resume} = pageSlice.actions;
+export const{general , education , experience , projects , resume} = pageSlice.actions;
 
 export default pageSlice.reducer
