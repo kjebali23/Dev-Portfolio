@@ -7,6 +7,7 @@ import Experience from '../components/Experience'
 import Projects from './Projects'
 
 import { useSelector } from 'react-redux'
+import Email from './Email'
 
 const InfoSection = () => {
 
@@ -21,6 +22,7 @@ const InfoSection = () => {
         {page ===2 && <Experience/> }
         {page ===3 && <Projects/> }
         {page ===4 && <ResumeSection/>}
+        {page ===5 && <Email/>}
 
         
     </div>

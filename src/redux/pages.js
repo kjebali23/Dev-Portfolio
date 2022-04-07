@@ -22,11 +22,14 @@ export const pageSlice = createSlice({
         },
         resume: (state)=>{
             state.value = 4
+        },
+        contact: (state)=>{
+            state.value = 5
         }
 
     }
 })
 
-export const{general , education , experience , projects , resume} = pageSlice.actions;
+export const {general , education , experience , projects , resume , contact} = pageSlice.actions;
 
 export default pageSlice.reducer

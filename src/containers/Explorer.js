@@ -14,7 +14,7 @@ const Explorer = () => {
             <p>Explorer</p>
             </div>
         <div className='resume'>
-          <div className='resume-title' onClick={()=> dispatch(general())}> 
+          <div className='resume-title'> 
             <img src={down} /> <p>Khalil-Jebali</p>
           </div>
           <div className='info-section' >
