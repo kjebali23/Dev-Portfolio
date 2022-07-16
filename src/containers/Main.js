@@ -6,7 +6,7 @@ import AppTopBar from '../components/AppTopBar'
 import finder from '../assets/finder.png'
 import bin from '../assets/bin.png'
 import vscode from '../assets/vscode.svg'
-import chrome from '../assets/chrome.svg'
+import safari from '../assets/safari.png'
 import launchpad from '../assets/launchpad.png'
 
 const Main = () => {
@@ -26,7 +26,7 @@ const Main = () => {
       <button className='doc-btn'><img className='doc-img' src={finder} /></button>
       <button className='doc-btn'><img className='doc-img' src={launchpad} /></button>
       <button className='app-doc-btn'><img className='s-img' src={vscode} onClick={()=> showDesktop()}  /></button>
-      <button className='app-doc-btn'><img className='s-img' src={chrome} /></button>
+      <button className='app-doc-btn'><img className='s-img' src={safari} /></button>
       <div className='vl' ></div>
       <button className='doc-btn'><img className='doc-img' src={bin} /></button>
       </div>
